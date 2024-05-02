@@ -1,0 +1,14 @@
+{
+	"configurations": [
+		{
+			"type": "java",
+			"name": "Spring Boot-Main<geoexplore>",
+			"request": "launch",
+			"cwd": "${workspaceFolder}",
+			"mainClass": "hb403.geoexplore.Main",
+			"projectName": "geoexplore",
+			"args": "",
+			"envFile": "${workspaceFolder}/.env"
+		}
+	]
+}

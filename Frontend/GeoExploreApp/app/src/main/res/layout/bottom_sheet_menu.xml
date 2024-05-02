@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btn_event_read"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_bkg"
+        android:text="Show An Event" />
+
+
+    <Button
+        android:id="@+id/btn_event_update"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_bkg"
+        android:text="Update Event" />
+
+    <Button
+        android:id="@+id/btn_event_delete"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_bkg"
+        android:layout_height="wrap_content"
+        android:text="Delete Event" />
+
+    <Button
+        android:id="@+id/btn_event_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_bkg"
+        android:text="List All Events" />
+
+
+
+    <Button
+        android:id="@+id/btn_report_read"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_bkg"
+        android:text="Show An Report" />
+
+
+    <Button
+        android:id="@+id/btn_report_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_bkg"
+        android:text="Update Report" />
+
+    <Button
+        android:id="@+id/btn_report_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_bkg"
+        android:text="Delete Report" />
+
+    <Button
+        android:id="@+id/btn_report_list"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_bkg"
+        android:text="List All Reports" />
+
+    <Button
+        android:id="@+id/btn_observation_read"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_bkg"
+        android:text="Show An Observation" />
+
+    <Button
+        android:id="@+id/btn_observation_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_bkg"
+        android:text="Update An Observation" />
+
+    <Button
+        android:id="@+id/btn_observation_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_bkg"
+        android:text="Delete An Observation" />
+
+    <Button
+        android:id="@+id/btn_observation_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_bkg"
+        android:text="List All Observation" />
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ActivityForms"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:padding="8dp"
+        android:hint="Title"
+        android:inputType="text"
+        android:background="@drawable/edittext_bkg"/>
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:padding="8dp"
+        android:hint="Description"
+        android:inputType="textMultiLine"
+        android:background="@drawable/edittext_bkg"/>
+
+    <EditText
+        android:id="@+id/editTextMarkerTag"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:padding="8dp"
+        android:hint="Enter Tags (Seperated by commas)"
+        android:inputType="textMultiLine"
+        android:background="@drawable/edittext_bkg"/>
+
+
+
+
+</LinearLayout>

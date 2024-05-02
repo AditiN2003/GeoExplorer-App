@@ -1,0 +1,10 @@
+<resources>
+    <style name="Theme.AndroidExample" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+    <style name="ToolbarTitleStyle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

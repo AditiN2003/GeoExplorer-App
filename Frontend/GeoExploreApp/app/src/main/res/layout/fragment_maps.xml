@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mapsFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MapsFragment">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/activity_maps_report_create_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#55000000"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:text="Tap on the map to select the location for your report"
+        android:visibility="gone"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/activity_maps_event_create_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#55000000"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:text="Tap on the map to select the location for your event"
+        android:visibility="gone"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/activity_maps_observation_create_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#55000000"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:text="Tap on the map to select the location for your observation"
+        android:visibility="gone"
+        android:layout_marginTop="16dp"/>
+
+
+    <TextView
+        android:id="@+id/activity_maps_report_update_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#55000000"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:text="Tap on the map to select the location to update report"
+        android:visibility="gone"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/activity_maps_event_update_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#55000000"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:text="Tap on the map to select the location to update event"
+        android:visibility="gone"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/activity_maps_observation_update_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#55000000"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:text="Tap on the map to select the location to update observation"
+        android:visibility="gone"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:id="@+id/statusMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:textColor="#FF0000"
+        android:text="Status message"/>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/MarkerOperationsFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/baseline_add_location_24"
+        app:backgroundTint="#FFFFFF"
+        app:layout_anchor="@id/map"
+        app:layout_anchorGravity="bottom|end" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/MarkerProximityFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/baseline_my_location_24"
+        app:backgroundTint="#FFFFFF" />
+
+
+</RelativeLayout>
+

@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"test.connect.geoexploreapp"},{"l":"test.connect.geoexploreapp.api"},{"l":"test.connect.geoexploreapp.databinding"},{"l":"test.connect.geoexploreapp.model"},{"l":"test.connect.geoexploreapp.websocket"}];updateSearchResults();

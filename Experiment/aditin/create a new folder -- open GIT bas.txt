@@ -1,0 +1,17 @@
+To remove evething
+	create a new folder --> open GIT bash 
+	- to restart: rm -Rf .git
+              rm -Rf *
+
+
+
+to clone
+	1. git clone(ur)
+ 	2. cd experiments
+	3. cd aditin
+	4. git status (to check status)
+	5. cd ..(retur to experiemtns)
+	6. git add .
+	7. git commit -m "feat: [Message]"
+	8. git status (to check status)
+	9. git push origin main
